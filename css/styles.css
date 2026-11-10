@@ -1,6 +1,6 @@
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, h3 {
-   margin: 0;
+body, header, nav, main, footer, img, h1, h3, ul {
+margin: 0;
    padding: 0;
    border: 0;
 }
@@ -15,6 +15,27 @@ img {
    display: block;
 }
 
+/* Style rules for header content */
+.mobile {
+   display: block;
+}
+
+.tab-desk {
+   display: none;
+}
+
+.mobile h1, .mobile h3 {
+   padding: 2%;
+   text-align: center;
+}
+
+.mobile h1 {
+   font-family: "Emblema One", system-ui;
+}
+
+.mobile h3 {
+   font-family: "Lora", serif;
+}
 /* Style rules for navigation area */
 nav {
    background-color: #2a1f14;
